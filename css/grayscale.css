@@ -11,6 +11,10 @@ html {
     height: 100%;
 }
 
+.padding {
+padding-top: 600px;
+}
+
 h1,
 h2,
 h3,
@@ -129,7 +133,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro.png) no-repeat bottom center scroll;
+    background: url(../img/intopage.png) no-repeat bottom center scroll;
     background-color: #86878a;
     -webkit-background-size: cover;
     -moz-background-size: cover;
