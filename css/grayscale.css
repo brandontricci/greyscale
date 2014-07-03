@@ -1,14 +1,16 @@
 body {
-    width: 100%;
     height: 100%;
-    font-family: "MyriadPro-Semibold";
-    color: #fff;
-    background-color: #000;
+    width: 100%;
+    margin:0px;
+    background: url(..img/intropage.png) no-repeat center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-html {
-    width: 100%;
-    height: 100%;
+html { 
+
 }
 
 .padding {
@@ -125,20 +127,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-}
 
-.intro {
-    
-    width: auto;
-    height: auto;
-    text-align: center;
-    background: url(../img/intopage.png) no-repeat center center scroll;
-    background-color: #86878a;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 .intro-body {
     display: table-cell;
@@ -354,4 +343,5 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+    background: url(../img/intropage.png) no-repeat center center scroll;
 }
