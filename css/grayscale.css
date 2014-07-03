@@ -129,8 +129,8 @@ a:focus {
 
 .intro {
     
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
     background: url(../img/intopage.png) no-repeat center center scroll;
     background-color: #86878a;
